@@ -1,0 +1,25 @@
+/* Smaller Desktop View */
+
+@media only screen and (max-width:992px) {}
+
+
+/* Tablet View */
+
+@media only screen and (max-width: 768px) {
+    .content {
+        flex-direction: column;
+    }
+    .formPane button {
+        margin-bottom: 30px;
+    }
+}
+
+
+/* Mobile view */
+
+@media only screen and (max-width: 600px) {
+    .formPane button {
+        font-size: .7em;
+        padding: 15px 30px;
+    }
+}

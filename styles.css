@@ -1,0 +1,128 @@
+/* Import font family Roboto */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto', sans-serif;
+}
+
+.container {
+    background-image: url('./Assets/Background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    max-width: 60%;
+    min-height: 60%;
+    box-shadow: 0 0 5px #808080;
+    display: flex;
+    border-radius: 3%;
+}
+
+.formPane,
+.imagePane {
+    min-width: 50%;
+    min-height: 100%;
+    padding: 30px 40px 0 40px;
+}
+
+.imagePane {
+    background-color: #013243;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.imagePane img {
+    max-width: 80%;
+    min-height: 70%;
+    margin: 0 auto;
+    /* display: flex; */
+    /* align-self: baseline; */
+    /* height: 100%; */
+}
+
+.text {
+    text-align: center;
+    margin-bottom: 30px;
+    height: 30%;
+}
+
+.text h1 {
+    margin-bottom: 3px;
+}
+
+
+/* form */
+
+.formPane {
+    background-color: #fff;
+    /* width: 40%; */
+}
+
+.formGroup {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.formGroup label {
+    font-weight: bold;
+}
+
+.formGroup input {
+    padding: 10px;
+    border: none;
+    box-shadow: 0 0 5px gray;
+    margin-top: 5px;
+}
+
+.formPane p {
+    padding: 10px;
+    margin-left: 10px;
+    line-height: 28px;
+    font-size: 1.125rem;
+}
+
+.formPane p a {
+    font-weight: 600;
+    color: #013243;
+}
+
+.formPane button {
+    padding: 15px 85px;
+    font-size: 1.2rem;
+    display: block;
+    margin: 0 auto;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: #013243;
+    color: white;
+    cursor: pointer;
+}
+
+input[type=checkbox] {
+    margin-right: 5px;
+    color: red;
+}
+
+.termsAgreement {
+    line-height: 25px;
+}
+
+.termsAgreement a {
+    font-weight: 700;
+    color: #013243;
+}
+
+.agreeCheck {
+    padding: 10px 20px;
+}
